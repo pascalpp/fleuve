@@ -6,8 +6,9 @@ const shiftKey = true;
 const ctrlKey = true;
 const altKey = true;
 
+type KeyExample = [Partial<KeyboardEvent>, string | undefined];
 describe('getKeySummary', () => {
-  const examples = [
+  const examples: KeyExample[] = [
     [{ key: 'k' }, 'K'],
     [{ key: 'k', metaKey }, 'Cmd K'],
     [{ key: 'k', metaKey, altKey }, 'Cmd-Option K'],
