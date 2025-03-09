@@ -1,9 +1,10 @@
+import svg from '@poppanator/sveltekit-svg';
 import { svelteTesting } from '@testing-library/svelte/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  plugins: [sveltekit()],
+  plugins: [sveltekit(), svg()],
 
   test: {
     workspace: [
