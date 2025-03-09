@@ -90,7 +90,7 @@
     <SettingsToolbar />
     <ChangelogButton />
 
-    <div class="pages">
+    <div class="pages" data-testid="pages-root">
       {#if root}
         <PageView pageId="root" taborder={0} />
       {/if}
