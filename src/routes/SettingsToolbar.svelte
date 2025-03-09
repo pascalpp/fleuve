@@ -96,7 +96,7 @@
     <section class="miscellany">
       <p>
         <a rel="feedback" href="mailto:pascal+fleuve@pascal.com?subject=Fleuve Feedback">
-          Send feedback <span class="email-icon" />
+          Send feedback <span class="email-icon"></span>
         </a>
       </p>
       <ShowTutorialButton />

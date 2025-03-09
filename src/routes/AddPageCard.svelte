@@ -71,6 +71,7 @@
 </script>
 
 <div class="add-card">
+  <!-- svelte-ignore a11y_missing_content -->
   <h1>
     <span
       id={`add-card-${page.id}`}
@@ -82,7 +83,8 @@
       on:blur={onBlur}
       on:keydown={onKeyDown}
       on:keyup={onKeyUp}
-    />
+    >
+    </span>
   </h1>
 </div>
 
